@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Money Denomitaion</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <form method="post" action="">
+            <div class="main">
+                <div class="left"></div>
+                <div class="center">
+                    <input type="number" id="rupees" placeholder="Enter Amount to be withdrawn"/>
+                    <br /><br />
+                    <button id="withdraw">Withdraw</button>
+                    <br /><br />
+                    <label id="error" class=""></label>
+                    <br /><br />
+                    <label id="successfulTransaction"></label>
+                </div>
+                <div class="right">
+                    <table cellspacing="2" cellpadding="2" border="2">
+                        <tr>
+                            <th>Rs 2000 Note</th>
+                            <th>Rs 500 Note</th>
+                            <th>Rs 200 Note</th>
+                            <th>Rs 100 Note</th>
+                            <th>Action</th>
+                        </tr>
+
+                        <tr>
+                            <td id="thousandLeft"></td>
+                            <td id="fiveLeft"></td>
+                            <td id="twoLeft"></td>
+                            <td id="oneLeft"></td>
+                            <td><button id="reset">Reset</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </form>
+
+    </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/script.js"></script>

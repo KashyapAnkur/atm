@@ -1,0 +1,92 @@
+body{
+    background-color: purple;
+}
+input{
+    padding:7px;
+    font-size:17px;
+}
+
+#rupees{
+    /* width:400px; */
+}
+
+.main{
+    background-color: purple;
+    color: white;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+
+table{
+    color: white;
+    border: 4px solid white;
+    padding: 10px;
+    margin:4px;
+    text-align: center;
+}
+
+td{
+    padding: 20px 20px 10px 20px;
+}
+#reset{
+    width:100px;
+    height: 40px;
+}
+.left{
+    background-color: purple;
+    color: white;
+    float:left;
+    width:30%;
+    height:100%;
+}
+
+.center{
+    background-color: purple;
+    color: white;
+    float:left;
+    width:40%;
+    height:100%;
+    text-align:center;
+}
+
+.right{
+    background-color: purple;
+    color: white;
+    float:left;
+    width:30%;
+    height:100%;
+}
+
+#rupees{
+    margin:10px;
+    padding:10px;
+    width:80%;
+}
+
+.error{
+    display:none;
+    color:orange;
+    font-size:17px;
+}
+
+.no_error{
+    display:none;
+    color:white;
+    font-size:17px;
+}
+
+#withdraw{
+    width:80%;
+    height:40px;
+    font-size:17px;
+    background-color:green;
+    color:white;
+    border-style:none;
+}
+
+#successfulTransaction{
+    color:white;
+    font-size:23px;
+
+}
